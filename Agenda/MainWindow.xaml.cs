@@ -30,6 +30,7 @@ namespace Agenda
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show("Bem vindo");
             ListarContatos();
             AlterarBotoes(1);
         }
