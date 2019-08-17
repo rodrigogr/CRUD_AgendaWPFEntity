@@ -158,5 +158,9 @@ namespace Agenda
             txtEmail.Clear();
             txtTelefone.Clear();
         }
+        private void Mensagem(string txt)
+        {
+            MessageBox.Show(txt);
+        }
     }
 }
