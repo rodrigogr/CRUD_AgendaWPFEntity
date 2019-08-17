@@ -30,6 +30,7 @@ namespace Agenda
         }
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show("Olá");
             ListarContatos();
             AlterarBotoes(1);
         }
@@ -156,10 +157,6 @@ namespace Agenda
             txtNome.Clear();
             txtEmail.Clear();
             txtTelefone.Clear();
-        }
-        private void Mensagem(string txt)
-        {
-            MessageBox.Show(txt);
         }
     }
 }
